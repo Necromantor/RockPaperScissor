@@ -3,9 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <title>Rock Paper Scissors</title>
-        <script src="app.js"></script>
+        <script src="app.js" defer></script>
     </head>
     <body>
-        <p>play on the console!</p>
+        <div>
+        <h1> Rock Paper Scissors</h1>
+        <h2> Best of 5!</h2>
+        <h3> Choose:</h3>
+        
+        
+        <button class="options">rock</button>
+        <button class="options">paper</button>
+        <button class="options">scissors</button>
+
+        <div class="labels"></div>
+            <p>Player Score = 
+                <span id="p-score"> 0 </span>
+            </p>
+            <p>Computer Score = 
+                <span id="c-score"> 0 </span>
+            </p>
+
+            <p>Results:
+                <span id="result"> Play to change!</span>
+            </p>
+        </div>
+
+        <button class="reset"> Click to reset game!</button>
     </body>
 </html>
